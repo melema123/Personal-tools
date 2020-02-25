@@ -1,0 +1,647 @@
+<fieldformater>
+  <isofield
+      id="0"
+      length="4"
+      name="MESSAGE TYPE INDICATOR"
+      size="0"/>
+  <isofield
+      id="1"
+      length="32"
+      name="BIT MAP"
+      size="0"/>
+  <isofield
+      id="2"
+      length="19"
+      name="PAN - PRIMARY ACCOUNT NUMBER"
+      size="2"/>
+  <isofield
+      id="3"
+      length="6"
+      name="PROCESSING CODE"
+      size="0"/>
+  <isofield
+      id="4"
+      length="12"
+      name="AMOUNT, TRANSACTION"
+      size="0"/>
+  <isofield
+      id="5"
+      length="12"
+      name="AMOUNT, SETTLEMENT"
+      size="0"/>
+  <isofield
+      id="6"
+      length="12"
+      name="AMOUNT, CARDHOLDER BILLING"
+      size="0"/>
+  <isofield
+      id="7"
+      length="10"
+      name="TRANSMISSION DATE AND TIME"
+      size="0"/>
+  <isofield
+      id="8"
+      length="8"
+      name="AMOUNT, CARDHOLDER BILLING FEE"
+      size="0"/>
+  <isofield
+      id="9"
+      length="8"
+      name="CONVERSION RATE, SETTLEMENT"
+      size="0"/>
+  <isofield
+      id="10"
+      length="8"
+      name="CONVERSION RATE, CARDHOLDER BILLING"
+      size="0"/>
+  <isofield
+      id="11"
+      length="6"
+      name="SYSTEM TRACE AUDIT NUMBER"
+      size="0"/>
+  <isofield
+      id="12"
+      length="6"
+      name="TIME, LOCAL TRANSACTION"
+      size="0"/>
+  <isofield
+      id="13"
+      length="4"
+      name="DATE, LOCAL TRANSACTION"
+      size="0"/>
+  <isofield
+      id="14"
+      length="4"
+      name="DATE, EXPIRATION"
+      size="0"/>
+  <isofield
+      id="15"
+      length="4"
+      name="DATE, SETTLEMENT"
+      size="0"/>
+  <isofield
+      id="16"
+      length="4"
+      name="DATE, CONVERSION"
+      size="0"/>
+  <isofield
+      id="17"
+      length="4"
+      name="DATE, CAPTURE"
+      size="0"/>
+  <isofield
+      id="18"
+      length="4"
+      name="MERCHANTS TYPE"
+      size="0"/>
+  <isofield
+      id="19"
+      length="3"
+      name="ACQUIRING INSTITUTION COUNTRY CODE"
+      size="0"/>
+  <isofield
+      id="20"
+      length="3"
+      name="PAN EXTENDED COUNTRY CODE"
+      size="0"/>
+  <isofield
+      id="21"
+      length="3"
+      name="FORWARDING INSTITUTION COUNTRY CODE"
+      size="0"/>
+  <isofield
+      id="22"
+      length="3"
+      name="POINT OF SERVICE ENTRY MODE"
+      size="0"/>
+  <isofield
+      id="23"
+      length="3"
+      name="CARD SEQUENCE NUMBER"
+      size="0"/>
+  <isofield
+      id="24"
+      length="3"
+      name="NETWORK INTERNATIONAL IDENTIFIEER"
+      size="0"/>
+  <isofield
+      id="25"
+      length="2"
+      name="POINT OF SERVICE CONDITION CODE"
+      size="0"/>
+  <isofield
+      id="26"
+      length="2"
+      name="POINT OF SERVICE PIN CAPTURE CODE"
+      size="0"/>
+  <isofield
+      id="27"
+      length="1"
+      name="AUTHORIZATION IDENTIFICATION RESP LEN"
+      size="0"/>
+  <isofield
+      id="28"
+      length="9"
+      name="AMOUNT, TRANSACTION FEE"
+      size="IFA_AMOUNT"/>
+  <isofield
+      id="29"
+      length="9"
+      name="AMOUNT, SETTLEMENT FEE"
+      size="IFA_AMOUNT"/>
+  <isofield
+      id="30"
+      length="9"
+      name="AMOUNT, TRANSACTION PROCESSING FEE"
+      size="IFA_AMOUNT"/>
+  <isofield
+      id="31"
+      length="9"
+      name="AMOUNT, SETTLEMENT PROCESSING FEE"
+      size="IFA_AMOUNT"/>
+  <isofield
+      id="32"
+      length="11"
+      name="ACQUIRING INSTITUTION IDENT CODE"
+      size="2"/>
+  <isofield
+      id="33"
+      length="11"
+      name="FORWARDING INSTITUTION IDENT CODE"
+      size="2"/>
+  <isofield
+      id="34"
+      length="28"
+      name="PAN EXTENDED"
+      size="2"/>
+  <isofield
+      id="35"
+      length="37"
+      name="TRACK 2 DATA"
+      size="2"/>
+  <isofield
+      id="36"
+      length="104"
+      name="TRACK 3 DATA"
+      size="3"/>
+  <isofield
+      id="37"
+      length="12"
+      name="RETRIEVAL REFERENCE NUMBER"
+      size="2"/>
+  <isofield
+      id="38"
+      length="6"
+      name="AUTHORIZATION IDENTIFICATION RESPONSE"
+      size="0"/>
+  <isofield
+      id="39"
+      length="2"
+      name="RESPONSE CODE"
+      size="0"/>
+  <isofield
+      id="40"
+      length="3"
+      name="SERVICE RESTRICTION CODE"
+      size="0"/>
+  <isofield
+      id="41"
+      length="8"
+      name="CARD ACCEPTOR TERMINAL IDENTIFICACION"
+      size="0"/>
+  <isofield
+      id="42"
+      length="15"
+      name="CARD ACCEPTOR IDENTIFICATION CODE"
+      size="0"/>
+  <isofield
+      id="43"
+      length="40"
+      name="CARD ACCEPTOR NAME/LOCATION"
+      size="0"/>
+  <isofield
+      id="44"
+      length="25"
+      name="ADITIONAL RESPONSE DATA"
+      size="2"/>
+  <isofield
+      id="45"
+      length="76"
+      name="TRACK 1 DATA"
+      size="2"/>
+  <isofield
+      id="46"
+      length="999"
+      name="ADITIONAL DATA - ISO"
+      size="3"/>
+  <isofield
+      id="47"
+      length="999"
+      name="ADITIONAL DATA - NATIONAL"
+      size="3"/>
+  <isofield
+      id="48"
+      length="999"
+      name="ADITIONAL DATA - PRIVATE"
+      size="3"/>
+  <isofield
+      id="49"
+      length="3"
+      name="CURRENCY CODE, TRANSACTION"
+      size="0"/>
+  <isofield
+      id="50"
+      length="3"
+      name="CURRENCY CODE, SETTLEMENT"
+      size="0"/>
+  <isofield
+      id="51"
+      length="3"
+      name="CURRENCY CODE, CARDHOLDER BILLING"
+      size="0"/>
+  <isofield
+      id="52"
+      length="8"
+      name="PIN DATA"
+      size="0"/>
+  <isofield
+      id="53"
+      length="16"
+      name="SECURITY RELATED CONTROL INsizeION"
+      size="0"/>
+  <isofield
+      id="54"
+      length="120"
+      name="ADDITIONAL AMOUNTS"
+      size="3"/>
+  <isofield
+      id="55"
+      length="999"
+      name="RESERVED ISO"
+      size="3"/>
+  <isofield
+      id="56"
+      length="999"
+      name="RESERVED ISO"
+      size="3"/>
+  <isofield
+      id="57"
+      length="999"
+      name="RESERVED NATIONAL"
+      size="3"/>
+  <isofield
+      id="58"
+      length="999"
+      name="RESERVED NATIONAL"
+      size="3"/>
+  <isofield
+      id="59"
+      length="999"
+      name="RESERVED NATIONAL"
+      size="3"/>
+  <isofield
+      id="60"
+      length="999"
+      name="RESERVED PRIVATE"
+      size="3"/>
+  <isofield
+      id="61"
+      length="999"
+      name="RESERVED PRIVATE"
+      size="3"/>
+  <isofield
+      id="62"
+      length="999"
+      name="RESERVED PRIVATE"
+      size="3"/>
+  <isofield
+      id="63"
+      length="999"
+      name="RESERVED PRIVATE"
+      size="3"/>
+  <isofield
+      id="64"
+      length="8"
+      name="MESSAGE AUTHENTICATION CODE FIELD"
+      size="0"/>
+  <isofield
+      id="65"
+      length="1"
+      name="BITMAP, EXTENDED"
+      size="0"/>
+  <isofield
+      id="66"
+      length="1"
+      name="SETTLEMENT CODE"
+      size="0"/>
+  <isofield
+      id="67"
+      length="2"
+      name="EXTENDED PAYMENT CODE"
+      size="0"/>
+  <isofield
+      id="68"
+      length="3"
+      name="RECEIVING INSTITUTION COUNTRY CODE"
+      size="0"/>
+  <isofield
+      id="69"
+      length="3"
+      name="SETTLEMENT INSTITUTION COUNTRY CODE"
+      size="0"/>
+  <isofield
+      id="70"
+      length="3"
+      name="NETWORK MANAGEMENT INsizeION CODE"
+      size="0"/>
+  <isofield
+      id="71"
+      length="4"
+      name="MESSAGE NUMBER"
+      size="0"/>
+  <isofield
+      id="72"
+      length="4"
+      name="MESSAGE NUMBER LAST"
+      size="0"/>
+  <isofield
+      id="73"
+      length="6"
+      name="DATE ACTION"
+      size="0"/>
+  <isofield
+      id="74"
+      length="10"
+      name="CREDITS NUMBER"
+      size="0"/>
+  <isofield
+      id="75"
+      length="10"
+      name="CREDITS REVERSAL NUMBER"
+      size="0"/>
+  <isofield
+      id="76"
+      length="10"
+      name="DEBITS NUMBER"
+      size="0"/>
+  <isofield
+      id="77"
+      length="10"
+      name="DEBITS REVERSAL NUMBER"
+      size="0"/>
+  <isofield
+      id="78"
+      length="10"
+      name="TRANSFER NUMBER"
+      size="0"/>
+  <isofield
+      id="79"
+      length="10"
+      name="TRANSFER REVERSAL NUMBER"
+      size="0"/>
+  <isofield
+      id="80"
+      length="10"
+      name="INQUIRIES NUMBER"
+      size="0"/>
+  <isofield
+      id="81"
+      length="10"
+      name="AUTHORIZATION NUMBER"
+      size="0"/>
+  <isofield
+      id="82"
+      length="12"
+      name="CREDITS, PROCESSING FEE AMOUNT"
+      size="0"/>
+  <isofield
+      id="83"
+      length="12"
+      name="CREDITS, TRANSACTION FEE AMOUNT"
+      size="0"/>
+  <isofield
+      id="84"
+      length="12"
+      name="DEBITS, PROCESSING FEE AMOUNT"
+      size="0"/>
+  <isofield
+      id="85"
+      length="12"
+      name="DEBITS, TRANSACTION FEE AMOUNT"
+      size="0"/>
+  <isofield
+      id="86"
+      length="16"
+      name="CREDITS, AMOUNT"
+      size="0"/>
+  <isofield
+      id="87"
+      length="16"
+      name="CREDITS, REVERSAL AMOUNT"
+      size="0"/>
+  <isofield
+      id="88"
+      length="16"
+      name="DEBITS, AMOUNT"
+      size="0"/>
+  <isofield
+      id="89"
+      length="16"
+      name="DEBITS, REVERSAL AMOUNT"
+      size="0"/>
+  <isofield
+      id="90"
+      length="42"
+      name="ORIGINAL DATA ELEMENTS"
+      size="0"/>
+  <isofield
+      id="91"
+      length="1"
+      name="FILE UPDATE CODE"
+      size="0"/>
+  <isofield
+      id="92"
+      length="2"
+      name="FILE SECURITY CODE"
+      size="0"/>
+  <isofield
+      id="93"
+      length="6"
+      name="RESPONSE INDICATOR"
+      size="0"/>
+  <isofield
+      id="94"
+      length="7"
+      name="SERVICE INDICATOR"
+      size="0"/>
+  <isofield
+      id="95"
+      length="42"
+      name="REPLACEMENT AMOUNTS"
+      size="0"/>
+  <isofield
+      id="96"
+      length="16"
+      name="MESSAGE SECURITY CODE"
+      size="0"/>
+  <isofield
+      id="97"
+      length="17"
+      name="AMOUNT, NET SETTLEMENT"
+      size="IFA_AMOUNT"/>
+  <isofield
+      id="98"
+      length="25"
+      name="PAYEE"
+      size="0"/>
+  <isofield
+      id="99"
+      length="11"
+      name="SETTLEMENT INSTITUTION IDENT CODE"
+      size="2"/>
+  <isofield
+      id="100"
+      length="11"
+      name="RECEIVING INSTITUTION IDENT CODE"
+      size="2"/>
+  <isofield
+      id="101"
+      length="17"
+      name="FILE NAME"
+      size="2"/>
+  <isofield
+      id="102"
+      length="28"
+      name="ACCOUNT IDENTIFICATION 1"
+      size="2"/>
+  <isofield
+      id="103"
+      length="28"
+      name="ACCOUNT IDENTIFICATION 2"
+      size="2"/>
+  <isofield
+      id="104"
+      length="100"
+      name="TRANSACTION DESCRIPTION"
+      size="3"/>
+  <isofield
+      id="105"
+      length="999"
+      name="RESERVED ISO USE"
+      size="3"/>
+  <isofield
+      id="106"
+      length="999"
+      name="RESERVED ISO USE"
+      size="3"/>
+  <isofield
+      id="107"
+      length="999"
+      name="RESERVED ISO USE"
+      size="3"/>
+  <isofield
+      id="108"
+      length="999"
+      name="RESERVED ISO USE"
+      size="3"/>
+  <isofield
+      id="109"
+      length="999"
+      name="RESERVED ISO USE"
+      size="3"/>
+  <isofield
+      id="110"
+      length="999"
+      name="RESERVED ISO USE"
+      size="3"/>
+  <isofield
+      id="111"
+      length="999"
+      name="RESERVED ISO USE"
+      size="3"/>
+  <isofield
+      id="112"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="113"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="114"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="115"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="116"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="117"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="118"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="119"
+      length="999"
+      name="RESERVED NATIONAL USE"
+      size="3"/>
+  <isofield
+      id="120"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="121"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="122"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="123"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="124"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="125"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="126"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="127"
+      length="999"
+      name="RESERVED PRIVATE USE"
+      size="3"/>
+  <isofield
+      id="128"
+      length="8"
+      name="MAC 2"
+      size="0"/>
+</fieldformater>
